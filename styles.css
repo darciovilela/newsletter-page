@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    display: flex;
+    background: #121214;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 100vw;
+    height: 100vh;
+       
+}
+
+
+h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #08C05E;
+    margin-top: 80px;
+}
+
+.comecar-dia {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.noticias {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+    color: #A8A8A8;
+  
+}
+
+
+input {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+.ler-primeiro {
+    width: 160px;
+    height: 19px;
+    left: 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+    color: #8257E5;
+
+}
+
+
+button {
+    width: 50px;
+    height: 50px;
+    background: #8257E5;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+button .send-icon {
+    vertical-align: middle;
+}
+
+
+.ler-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.image {
+    display: flex;
+    width: 50vw;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    
+    .container {
+        margin: 10px;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .logo {
+        width: 350px;
+    }
+    
+    h3 {
+        font-weight: 700;
+        font-size: 16px;
+        margin-top: 60px;
+    }
+
+    .comecar-dia {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    
+    .noticias {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    input {
+        width: 250px;
+        height: 50px;
+        font-size: 14px;
+        filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+}
+
