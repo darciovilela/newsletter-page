@@ -1,1 +1,1 @@
-# Simple newsletter page. Front-end with HTML and CSS.
+Simple newsletter page. Front-end with HTML and CSS.
